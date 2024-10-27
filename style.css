@@ -1,0 +1,108 @@
+/* 1. Mengatur latar belakang dengan efek gradasi */
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+/* 2. Menentukan jenis huruf yang digunakan dalam halaman */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* 3. Mengatur warna teks */
+p {
+    color: #333333;
+}
+
+/* 4. Menentukan jarak luar elemen dari elemen lain */
+h1 {
+    margin: 20px 0; /* 20px atas dan bawah, 0px kiri dan kanan */
+}
+
+/* 5. Menentukan jarak dalam elemen dari tepi elemen */
+div {
+    padding: 15px; /* 15px untuk semua sisi */
+}
+
+/* 6. Mengatur perataan teks */
+h2 {
+    text-align: center;
+}
+
+/* 7. Mengubah tampilan huruf menjadi huruf kapital */
+h3 {
+    text-transform: uppercase;
+}
+
+/* 8. Menambahkan jarak antar huruf */
+span {
+    letter-spacing: 2px;
+}
+
+/* 9. Mengatur tinggi garis untuk jarak antarbaris teks */
+p {
+    line-height: 1.5; /* Tinggi garis 1.5 kali ukuran font */
+}
+
+/* 10. Mengontrol batas tabel (menyatukan batas) */
+table {
+    border-collapse: collapse; /* Menggabungkan batas tabel */
+}
+
+tr,
+td,
+th {
+    border: 1px black solid;
+}
+/* 11. Menambahkan bayangan ke elemen untuk efek kedalaman */
+.box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 12. Mengatur sudut melengkung pada elemen */
+.button {
+    border-radius: 8px; /* Sudut melengkung 8px */
+}
+
+/* 13. Mengatur batas elemen, termasuk warna dan lebar */
+.box {
+    border: 2px solid #000; /* Batas 2px hitam */
+}
+
+/* 14. Menambahkan efek transisi pada perubahan gaya saat hover */
+.button {
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff7e5f; /* Mengubah warna latar belakang saat hover */
+}
+
+/* 15. Mengatur transformasi, seperti zoom pada gambar saat hover */
+.image {
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: scale(1.1); /* Memperbesar gambar 10% saat hover */
+}
+
+/* 16. Mengatur gaya responsif untuk perangkat dengan lebar maksimum 768px */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Mengubah ukuran font untuk perangkat kecil */
+    }
+}
+
+/* 17. Mengatur animasi untuk efek tampil */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation: fadeIn 1s ease-in; /* Efek muncul dalam 1 detik */
+}

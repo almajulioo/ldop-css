@@ -1,0 +1,93 @@
+h1 {
+    color: green;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.h1-belajars {
+    color: red;
+    background-color: black;
+    /* border: dotted 10px blue; */
+    border-style: dotted;
+    border-color: blue;
+    border-width: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 300px;
+    width: 200px;
+}
+
+#h1-belajar2 {
+    display: block;
+    color: blue;
+    /* margin-top: 100px;
+    margin-left: 100px; */
+    margin: 100px 50px 100px 50px;
+}
+
+.p-belajar {
+    text-align: justify;
+    font-family: 'Rubik Wet Paint', system-ui;
+    font-weight: 400;
+}
+
+.div-belajar {
+    background-color: red;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.listul {
+    list-style-type: square;
+}
+
+li {
+    display: inline;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+.table-belajar {
+    border-collapse: collapse;
+}
+
+.table-belajar,
+td {
+    border: 5px solid black;
+}
+
+.tr-belajar {
+    background-color: red;
+}
+
+.tr-belajar:nth-child(even) {
+    background-color: blue;
+}
+
+nav {
+    display: flex;
+    padding: 10px 10px;
+    border: 3px solid;
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.div-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.h1-nav:hover {
+    color: red;
+    cursor: pointer;
+}
